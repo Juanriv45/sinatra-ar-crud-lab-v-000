@@ -21,5 +21,5 @@ class ApplicationController < Sinatra::Base
     redirect to '/posts'
   end
 
-  
+
 end
