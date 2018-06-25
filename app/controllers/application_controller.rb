@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     redirect to '/posts'
   end
 
-  get '/post' do
+  get '/posts' do
     @posts = Post.all
     erb :index
   end
